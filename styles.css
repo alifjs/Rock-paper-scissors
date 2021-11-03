@@ -1,0 +1,120 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    background-image:radial-gradient( circle at top,hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#box{
+    width:51.2vw;
+    min-width:503.808px;
+    margin:auto;
+    margin-top:40px;
+    display:flex;
+    border:4px solid hsl(217, 16%, 45%);;
+    padding:20px;
+    border-radius:20px;
+}
+#empty_space{
+    flex:1 1 0;
+}
+#score{
+    display:inline-block;
+    background-color: white;
+    text-align:center;
+    padding:20px 60px 20px;
+    border-radius:10px;
+}
+#score h1{
+    font-size:70px;
+    color:hsl(229, 25%, 31%);
+    
+}
+#score p{
+    font-size:20px;
+    color:hsl(229, 64%, 46%);
+}
+#box img{
+    width:170px;
+}
+
+.pentagon_container{
+    /*min-width:329px;*/
+    width:329px;
+    height:313px;
+    margin:100px auto 0;
+    background-image:url('images/bg-pentagon.svg');
+    background-repeat: no-repeat;
+    display:block;
+}
+#scissors{
+    display:inline-block;
+    padding:20px 22.5px 20px;
+    border:10px solid hsl(39, 89%, 49%);
+    border-radius:50%;
+    background:white;
+}
+.scissors_container{
+    display:inline-block;
+    position:relative;
+    left:120px;
+    top:-50px;
+}
+
+#spock{
+    display:inline-block;
+    padding:20px 22.5px 20px 28.5px;
+    border:10px solid hsl(189, 59%, 53%);
+    border-radius:50%;
+    background:white;
+}
+.spock_container{
+    display:inline-block;
+    position:relative;
+    top:50px;
+    left:-150px;
+}
+#paper{
+    display:inline-block;
+    padding:20px 22.5px 20px;
+    border:10px solid hsl(230, 89%, 62%);
+    border-radius:50%;
+    background:white;
+}
+.paper_container{
+    display:inline-block;
+    position:relative;
+    right:-250px;
+    top:-70px;
+}
+#lizard{
+    display:inline-block;
+    padding:20px 22.5px 20px;
+    border:10px solid hsl(261, 73%, 60%);
+    border-radius:50%;
+    background:white;
+}
+.lizard_container{
+    display:inline-block;
+    position:relative;
+    bottom:-110px;
+    left:-120px;
+}
+#rock{
+    display:inline-block;
+    padding:20px 22.5px 20px;
+    border:10px solid hsl(261, 73%, 60%);
+    border-radius:50%;
+    background:white;
+}
+
+.rock_container{
+    display:inline-block;
+    position:relative;
+}
+
+

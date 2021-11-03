@@ -3,35 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Rock, Paper, Scissors</title>
-
-  Score
-  Rules
-
-  You Picked
-  The House Picked
-
-  You Win
-  You Lose
-
-  Play Again
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div id='box'>
+    <img src="images/logo-bonus.svg" >
+    <span id='empty_space'></span>
+    <div id='score'>
+      <p>SCORE</p>
+      <h1>0</h1>
+    </div>
+  </div>
 
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="pentagon_container">
+    <div class="scissors_container">
+      <div id="scissors">
+        <img src="images/icon-scissors.svg" >
+      </div>
+    </div>
+    <div class="spock_container">
+      <div id="spock">
+        <img src="images/icon-spock.svg" >
+      </div>
+    </div>
+    <div class="paper_container">
+      <div id="paper">
+        <img src="images/icon-paper.svg" >
+      </div>
+    </div>
+    <div class="lizard_container">
+      <div id="lizard">
+        <img src="images/icon-lizard.svg" >
+      </div>
+    </div>
+    <div class="rock_container">
+      <div id="rock">
+        <img src="images/icon-rock.svg" >
+      </div>
+    </div>      
   </div>
 </body>
 </html>
